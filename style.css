@@ -5,7 +5,7 @@
   transform:translateX(0%);
   }
   to {
-  transform: translateX(150%);
+  transform: translateX(100%);
   }
  }
   .options{
@@ -14,18 +14,19 @@
 }
   .bgimg{
     background-image: url(./public/images/background.jpg);
-    margin-top: 20px;
-    background-size: cover;
-    width: 600px;
-    height: 500px;
-    margin-left: -100px;
+    margin-top: 80px;
+    background-size:cover;
+    width: 100%;
+    height: 300px;
+   
   }
   .name{
    font-family: arial;
    width: 100%;
    font-weight: bold;
    text-align: center;
-   font-size: 300%;
+   font-size: 35px;
+   margin-top: 20px;
   }
     .card-title {
     font-family: Arial;
@@ -37,6 +38,9 @@
     .card{
       margin-bottom: 10px;
       display: flex;
+    }
+    .card-title{
+      font-size: 20px;
     }
     .details{
      display: grid;
@@ -67,7 +71,7 @@
     }
     .education{
       width: 100%;
-      display: inline-block;
+      
     }
 }
   @media screen and (orientation:landscape) {
@@ -150,7 +154,7 @@
   display: grid;
   grid-template-columns: 6fr 6fr;
   margin-top: 20px;
-  margin: 10px;
+  
 }
 .details{
 display: grid;
