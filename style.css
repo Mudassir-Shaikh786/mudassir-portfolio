@@ -21,11 +21,12 @@
     margin-left: -100px;
   }
   .name{
-        font-family: arial;
-        font-weight: bold;
-        text-align: center;
-        font-size: 300%;
-    }
+   font-family: arial;
+   width: 100%;
+   font-weight: bold;
+   text-align: center;
+   font-size: 300%;
+  }
     .card-title {
     font-family: Arial;
     font-size: 25px;
@@ -35,6 +36,7 @@
     }
     .card{
       margin-bottom: 10px;
+      display: flex;
     }
     .details{
      display: grid;
@@ -61,6 +63,11 @@
       grid-template-columns: 12fr;
       font-size: 25px;
       margin-top: 30px;
+      width: 100%;
+    }
+    .education{
+      width: 100%;
+      display: inline-block;
     }
 }
   @media screen and (orientation:landscape) {
