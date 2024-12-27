@@ -34,7 +34,7 @@
 }
 .card-title {
   font-family: Arial;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: bold;
   padding-bottom: 10px;
   height: 40px;
@@ -43,12 +43,7 @@
 
 .card{
   margin-bottom: 10px;
-  display: flex;
-  background-color: rgb(213, 184, 145);
-}
-
-.card-title{
-  font-size: 20px;
+  background: fixed;
 }
 
 .details{
@@ -72,6 +67,30 @@
 
 .skill{
   font-weight: bold;
+}
+
+.work{
+  display: grid;
+  grid-template-rows: 3fr 3fr 3fr 3fr;
+  grid-gap: 10px;
+  margin: 20px;
+}
+
+.work h3{
+  text-align: center;
+  margin-top: 50px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.work img{
+  width: 90%;
+  height: 100%;
+  background-size: cover;
+}
+
+.work img:hover{
+  width: 100%;
 }
 
 .info{
@@ -173,6 +192,30 @@
   .skill{
     font-weight: bold;
     margin-left: 40px;
+  }
+
+  .work{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    justify-content: space-around;
+    margin: 20px;
+  }
+
+  .work img{
+    width: 60%;
+    height: 100%;
+    background-size: cover;
+  }
+
+  .work h3{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 25px;
+    font-weight: bold;
+  }
+
+  .work img:hover{
+    width: 100%;
   }
 
   .education{
