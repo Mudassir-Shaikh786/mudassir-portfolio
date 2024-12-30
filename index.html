@@ -33,7 +33,7 @@
              <button class="btn btn-warning fs-4 fw-bold text-decoration-underline text-primary">My Work</button>
         </div>
     </section>
-    <main class="info" id="project">
+    <main class="info">
       <div id="about">
         <h2 class="text-center fw-bold text-decoration-underline mb-4 text-primary"> About Me</h2>
         <p><b>Name:</b> Mudassir Ismail Shaikh</p>
@@ -54,13 +54,58 @@
         </ul>
       </div>
     </main>
-      <h1 class="text-center text-primary text-decoration-underline">My Projects</h1>
-      <div class="work">
-        <h3>React video library:</h3>
-        <a href="https://react-video-library-7416d.web.app/"><img src="./public/images/index-page.png"></a>
-        <a href="https://react-video-library-7416d.web.app/"><img src="./public/images/user-dash.png"></a>
-        <a href="https://react-video-library-7416d.web.app/"><img src="./public/images/admin-dash.png"></a>
+      <h1 id="project" class="text-center text-primary text-decoration-underline">My Projects</h1>
+
+      <h3 class="fw-bold text-decoration-underline">React Video Library:</h3>
+      <div class= "carousel text-center" id="reviews" data-bs-ride="carousel" data-bs-theme="dark">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <p class="text-lg-center"><b style="font-size:20px;">Login Page</b></p>
+                <img src="./public/images/index-page.png">
+            </div>
+            <div class="carousel-item">
+                <p class="text-lg-center"><b style="font-size:20px;">users can watch videos</b></p>
+                <img src="./public/images/user-dash.png">
+            </div>
+            <div class="carousel-item">
+                <p class="text-lg-center"><b style="font-size:20px;">Admin can add, remove, edit videos,</b></p>
+                <img src="./public/images/admin-dash.png ">
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="carousel-indicators">
+            <button data-bs-slide-to="0" data-bs-target="#reviews" class="active btn btn-dark"></button>
+            <button data-bs-slide-to="1" data-bs-target="#reviews" class="btn btn-outline-dark"></button>
+            <button data-bs-slide-to="2" data-bs-target="#reviews" class="btn btn-dark"></button>
+        </div>
+    </div>
+
+    <h3 class="fw-bold text-decoration-underline">React Fakestore-Shopping:</h3>
+    <div class= "carousel text-center" id="previews" data-bs-ride="carousel" data-bs-theme="dark">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <p class="text-lg-center"><b style="font-size:20px;">user can search by name, can change category by dropdown or buttons, add likes</b></p>
+              <img src="./public/images/fakestore-shopping.png">
+          </div>
+          <div class="carousel-item">
+              <p class="text-lg-center"><b style="font-size:20px;">add to card items </b></p>
+              <img src="./public/images/fakestore-card.png">
+          </div>
+          <div class="carousel-item">
+              <p class="text-lg-center"><b style="font-size:20px;">Remove items</b></p>
+              <img src="./public/images/fakestore-cart.png">
+          </div>
       </div>
+      <br>
+      <br>
+      <div class="carousel-indicators">
+          <button data-bs-slide-to="0" data-bs-target="#previews" class="active btn btn-dark"></button>
+          <button data-bs-slide-to="1" data-bs-target="#previews" class="btn btn-dark"></button>
+          <button data-bs-slide-to="2" data-bs-target="#previews" class="btn btn-dark"></button>
+      </div>
+  </div>
+
     <h1 class="text-decoration-underline mt-5 text-primary text-center">Education</h1>
    <div class="education mt-5">
     <div class="card">

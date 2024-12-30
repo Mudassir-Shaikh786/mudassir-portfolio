@@ -14,6 +14,7 @@
 .options{
  position: sticky;
  top: 10px;
+ z-index: 1;
 }
 
 .bgimg{
@@ -69,28 +70,9 @@
   font-weight: bold;
 }
 
-.work{
-  display: grid;
-  grid-template-rows: 3fr 3fr 3fr 3fr;
-  grid-gap: 10px;
-  margin: 20px;
-}
-
-.work h3{
-  text-align: center;
-  margin-top: 50px;
-  text-decoration: underline;
-  font-weight: bold;
-}
-
-.work img{
-  width: 90%;
-  height: 100%;
-  background-size: cover;
-}
-
-.work img:hover{
+.carousel img{
   width: 100%;
+  z-index: 0;
 }
 
 .info{
@@ -187,41 +169,25 @@
   .options{
     position: sticky;
     top: 10px;
+    z-index: 1;
   }
 
   .skill{
     font-weight: bold;
     margin-left: 40px;
   }
-
-  .work{
-    display: grid;
-    grid-template-columns: 3fr 3fr 3fr 3fr;
-    justify-content: space-around;
-    margin: 20px;
-  }
-
-  .work img{
-    width: 60%;
-    height: 100%;
-    background-size: cover;
-  }
-
-  .work h3{
-    text-align: center;
-    text-decoration: underline;
-    margin-top: 25px;
-    font-weight: bold;
-  }
-
-  .work img:hover{
-    width: 100%;
+  
+  .carousel img{
+    width: 80%;
+    z-index: 0;
   }
 
   .education{
     display: grid;
     grid-template-columns: 6fr 6fr;
-    margin-top: 20px;    
+    margin-top: 20px; 
+    margin-left: 100px; 
+    margin-bottom: 20px;
   }
 
   .details{
