@@ -44,12 +44,12 @@
 
 .card{
   margin-bottom: 10px;
-  background: fixed;
+  background-color: rgb(213, 184, 145);
 }
 
 .details{
   display: grid;
-  grid-template-columns: 4fr 4fr 4fr;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -192,6 +192,6 @@
 
   .details{
   display: grid;
-  grid-template-columns: 4fr 4fr 4fr;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
   }
   }
