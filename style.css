@@ -25,6 +25,10 @@
   height: 300px;  
 }
 
+.oriented{
+  display: none;
+}
+
 .name{
   font-family: arial;
   width: 100%;
@@ -167,9 +171,16 @@
   }
 
   .options{
-    position: sticky;
-    top: 10px;
-    z-index: 1;
+    display: none;
+  }
+
+  .oriented{
+    display: flex;
+    justify-content: space-around;
+     background-color: rgb(8, 209, 232);
+     position: sticky;
+     top: 0px;
+     z-index: 1;
   }
 
   .skill{
