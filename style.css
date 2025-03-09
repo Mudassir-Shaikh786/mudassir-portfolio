@@ -56,6 +56,7 @@
   grid-template-columns: 3fr 3fr 3fr 3fr;
   margin-top: 10px;
   margin-bottom: 10px;
+  height: 70px;
 }
 
 .title{
@@ -68,10 +69,6 @@
   animation-duration: 10s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
-}
-
-.skill{
-  font-weight: bold;
 }
 
 .carousel img{
@@ -184,7 +181,6 @@
   }
 
   .skill{
-    font-weight: bold;
     margin-left: 40px;
   }
   
@@ -204,5 +200,6 @@
   .details{
   display: grid;
   grid-template-columns: 3fr 3fr 3fr 3fr;
+  height: 100px;
   }
   }
