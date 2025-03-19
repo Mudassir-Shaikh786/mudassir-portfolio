@@ -1,6 +1,24 @@
 .backg{
   background-color: antiquewhite;
 }
+
+.cardinfo{
+  border: 3px solid rgb(251, 160, 95);
+  padding: 15px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 4px rgb(61, 61, 82), -2px -2px 5px rgba(0, 0, 0, 0.2);
+  font-family: 'Arial', sans-serif;
+  color: rgb(76, 63, 187);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(247, 109, 185, 0.3));
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .cardinfo:hover {
+    transform: scale(1.04);
+    box-shadow: 2px 2px 4px rgb(90, 90, 119), -2px -2px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+
 @media screen and (orientation:portrait) {
   @keyframes ease {
   from {
